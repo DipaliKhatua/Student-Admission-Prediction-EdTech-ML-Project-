@@ -51,5 +51,5 @@ http://127.0.0.1:5000/predict
 
 # Author
 Dipali Khatua
-Aspiring Data Scientist
-Connect me : https://www.linkedin.com/in/dipalikhatua/
+- Aspiring Data Scientist
+- Connect me : https://www.linkedin.com/in/dipalikhatua/
