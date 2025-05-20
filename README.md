@@ -22,11 +22,13 @@ A machine learning model that predicts **student admission chances** based on ac
    pip install -r requirements.txt
 
 - Train & Save Model
-import pickle
-with open("artifacts/random_forest_model.pkl", "wb") as file:
-    pickle.dump(trained_model, file)
-- 
+  
+    import pickle
+    with open("artifacts/random_forest_model.pkl", "wb") as file:
+      pickle.dump(trained_model, file)
+
 - Run the Flask API
+
 python app.py
 - Test API with Thunder Client Send a POST request to:
 http://127.0.0.1:5000/predict
